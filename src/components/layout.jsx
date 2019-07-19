@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/scss/main.scss'
+import CookieConsent from "react-cookie-consent";
 
 import Footer from './Footer'
 
@@ -32,6 +33,9 @@ class Template extends React.Component {
 
           {children}
           <Footer />
+          <CookieConsent>
+            Wir nutzen Cookies, um ihr Nutzererlebnis auf unserer Webseite zu verbessern.
+          </CookieConsent>
         </div>
       </div>
     )
