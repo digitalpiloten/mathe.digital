@@ -45,45 +45,30 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Einleitung</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
+                <p>
+                  <b>
+                    Diese Homepage wird von ehemaligen Kursteilnehmern programmiert und aktualisiert. Du kannst auch Programmieren lernen – komm‘ mit uns auf die Reise, beginnend mit diesem Grundkurs!
+                  </b>
+                </p>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="aboutme" className="main">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Über mich</h2>
             </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+            <p>
+              <b>
+                Mein Name ist Marvin, ich habe 2014 meinen ersten Kurs am Zentrum für Mathematik gemacht und parallel zur Grundschule programmieren gelernt.
+                <br />
+                Inzwischen kann ich mehrere Programmiersprachen und arbeite an meinem zweiten „Nano-Degree“ als App-Developer.
+                <br /><br />
+                Diese Seite ist absichtlich einfach gehalten, um auch den Code als Demo-/Anschauungs-Material für unsere Kurse zu benutzen.
+              </b>
+            </p>
           </section>
 
           <section id="second" className="main special">
