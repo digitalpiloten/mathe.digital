@@ -91,12 +91,15 @@ class Index extends React.Component {
           <section id="images" className="main">
             <header className="major">
               <h2>Bilder</h2>
-              <p>
-                Mit einem Klick auf das folgende Bild kommen Sie zu unserer Bildergalerie:
-              </p>
             </header>
             <p>
-            <a target="_blank" data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/163747931@N07/albums/72157709740350222" title="MatheDigital"><img src="https://live.staticflickr.com/65535/48321819801_9e76c1dec8_z.jpg" width="640" height="466" alt="MatheDigital" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charSet="utf-8"></script>
+              <a
+                href="https://www.flickr.com/photos/163747931@N07/albums/72157709740350222"
+                target="_blank"
+                className="button"
+              >
+                Zur Bildergalerie
+              </a>
             </p>
           </section>
 
