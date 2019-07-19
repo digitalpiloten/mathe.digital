@@ -140,6 +140,7 @@ class Index extends React.Component {
               <blockquote
                 className="embedly-card"
                 data-card-controls="0"
+                data-card-align="left"
               >
                 <h4>
                   <a href="https://youtu.be/-y9cQG3KkUY">
@@ -154,6 +155,7 @@ class Index extends React.Component {
               <blockquote
                 className="embedly-card"
                 data-card-controls="0"
+                data-card-align="left"
               >
                 <h4>
                   <a href="https://youtu.be/mg17qfjw1pQ">
@@ -168,6 +170,7 @@ class Index extends React.Component {
               <blockquote
                 className="embedly-card"
                 data-card-controls="0"
+                data-card-align="left"
               >
                 <h4>
                   <a href="https://youtu.be/HyMkyRAuNf0">
