@@ -6,10 +6,18 @@ import logo from '../assets/images/logo.svg';
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Aliquam sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+            <h2>Anmeldung</h2>
+            <p>Zu den Kursen beim Zentrum für Mathematik können Sie sich hier anmelden:</p>
             <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
+                <li>
+                    <a
+                        href="https://www.z-f-m.de/projekte/mathedigital"
+                        className="button"
+                        target="_blank"
+                    >
+                        Jetzt anmelden!
+                    </a>
+                </li>
             </ul>
         </section>
         <section>
@@ -30,7 +38,15 @@ const Footer = (props) => (
                 <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
             </ul>
         </section>
-        <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p className="copyright">
+            &copy; 2019 Thorsten Schopf. Alle Rechte vorbehalten. 
+            <br />
+            Design und Umsetzung: <a href="https://withmarvnet.com">MarvNet Digital</a>.
+            <br />
+            <small>
+                Theme: HTML5UP.
+            </small>
+        </p>
     </footer>
 )
 
