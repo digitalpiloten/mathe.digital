@@ -25,11 +25,11 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
         <script type="application/javascript">
-          document.addEventListener("load", function(){"{"}
-            var screlem = document.createElement("script");
-            screlem.src = "//cdn.embedly.com/widgets/platform.js";
+          document.addEventListener(\"load\", function(){"{"}
+            var screlem = document.createElement(\"script\");
+            screlem.src = \"//cdn.embedly.com/widgets/platform.js\";
             screlem.async = true;
-            screlem.charset = "utf-8";
+            screlem.charset = \"utf-8\";
             document.body.appendChild(screlem);
           {"}"});
         </script>
