@@ -10,7 +10,7 @@ class PrivacyPolicy extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Datenschutzerklärung" />
+        <Helmet title="Datenschutzerklärung | MatheDigital" />
         <HeaderPrivacyPolicy />
         <div id="main">
           <section id="content" className="main">
