@@ -89,18 +89,16 @@ class Index extends React.Component {
             </ul>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="images" className="main">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Bilder</h2>
+              <p>
+                Mit einem Klick auf das folgende Bild kommen Sie zu unserer Bildergalerie:
+              </p>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+            <p>
+            <a target="_blank" data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/163747931@N07/albums/72157709740350222" title="MatheDigital"><img src="https://live.staticflickr.com/65535/48321819801_9e76c1dec8_z.jpg" width="640" height="466" alt="MatheDigital" /></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            </p>
           </section>
 
         </div>
