@@ -25,6 +25,11 @@ const Footer = (props) => (
                 <dd><a href="tel:+491628321041">+49 (0) 162 8321041</a></dd>
                 <dt>Email</dt>
                 <dd><a href="mailto:master@mathe.digital">master@mathe.digital</a></dd>
+                <p>
+                    <Link to="/datenschutz">
+                        Datenschutzerklärung
+                    </Link>
+                </p>
             </dl>
         </section>
         <p className="copyright">
