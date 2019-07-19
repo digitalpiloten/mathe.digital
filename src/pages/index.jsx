@@ -121,7 +121,7 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <OutboundLink href="https://youtu.be/2lQV_zA-4yk">
+                  <OutboundLink href="https://youtu.be/2lQV_zA-4yk" target="_blank">
                     WRO 2014
                   </OutboundLink>
                 </h4>
@@ -137,7 +137,7 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <OutboundLink href="https://youtu.be/XnLsDKoFwrw">
+                  <OutboundLink href="https://youtu.be/XnLsDKoFwrw" target="_blank">
                     Einführung in den Mathetreff Digital
                   </OutboundLink>
                 </h4>
@@ -153,7 +153,7 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <OutboundLink href="https://youtu.be/-y9cQG3KkUY">
+                  <OutboundLink href="https://youtu.be/-y9cQG3KkUY" target="_blank">
                     Calliope mini - Das Bürstentier
                   </OutboundLink>
                 </h4>
@@ -169,7 +169,7 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <OutboundLink href="https://youtu.be/mg17qfjw1pQ">
+                  <OutboundLink href="https://youtu.be/mg17qfjw1pQ" target="_blank">
                     Alarmanlage mit dem Calliope mini
                   </OutboundLink>
                 </h4>
@@ -185,7 +185,7 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <OutboundLink href="https://youtu.be/HyMkyRAuNf0">
+                  <OutboundLink href="https://youtu.be/HyMkyRAuNf0" target="_blank">
                     Drohne mit Scratch
                   </OutboundLink>
                 </h4>
