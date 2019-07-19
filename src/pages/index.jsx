@@ -109,7 +109,10 @@ class Index extends React.Component {
               </p>
             </header>
             <div>
-              <blockquote className="embedly-card" data-card-controls="0">
+              <blockquote
+                className="embedly-card"
+                data-card-controls="0"
+              >
                 <h4>
                   <a href="https://youtu.be/2lQV_zA-4yk">
                     WRO 2014
@@ -120,7 +123,10 @@ class Index extends React.Component {
                 </p>
               </blockquote>
               <br />
-              <blockquote className="embedly-card" data-card-controls="0">
+              <blockquote
+                className="embedly-card"
+                data-card-controls="0"
+              >
                 <h4>
                   <a href="https://youtu.be/XnLsDKoFwrw">
                     Einführung in den Mathetreff Digital
@@ -131,7 +137,10 @@ class Index extends React.Component {
                 </p>
               </blockquote>
               <br />
-              <blockquote className="embedly-card" data-card-controls="0">
+              <blockquote
+                className="embedly-card"
+                data-card-controls="0"
+              >
                 <h4>
                   <a href="https://youtu.be/-y9cQG3KkUY">
                     Calliope mini - Das Bürstentier
@@ -142,7 +151,10 @@ class Index extends React.Component {
                 </p>
               </blockquote>
               <br />
-              <blockquote className="embedly-card" data-card-controls="0">
+              <blockquote
+                className="embedly-card"
+                data-card-controls="0"
+              >
                 <h4>
                   <a href="https://youtu.be/mg17qfjw1pQ">
                     Alarmanlage mit dem Calliope mini
@@ -153,7 +165,10 @@ class Index extends React.Component {
                 </p>
               </blockquote>
               <br />
-              <blockquote className="embedly-card" data-card-controls="0">
+              <blockquote
+                className="embedly-card"
+                data-card-controls="0"
+              >
                 <h4>
                   <a href="https://youtu.be/HyMkyRAuNf0">
                     Drohne mit Scratch
