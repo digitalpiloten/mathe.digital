@@ -7,6 +7,9 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 
 
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+
+
 class Index extends React.Component {
   constructor(props) {
     super(props);
