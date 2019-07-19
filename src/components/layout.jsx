@@ -33,7 +33,11 @@ class Template extends React.Component {
 
           {children}
           <Footer />
-          <CookieConsent>
+          <CookieConsent
+            buttonText="Einverstanden."
+            style={{ background: "#343C66" }}
+            buttonStyle={{ fontSize: "16px", fontWeight: "bold", backgroundColor: "#F71559" }}
+          >
             Wir nutzen Cookies, um ihr Nutzererlebnis auf unserer Webseite zu verbessern.
           </CookieConsent>
         </div>
