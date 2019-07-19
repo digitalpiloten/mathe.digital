@@ -24,7 +24,15 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script async src="//cdn.embedly.com/widgets/platform.js" charSet="UTF-8"></script>
+        <script type="application/javascript">
+          document.addEventListener("load", function(){"{"}
+            var screlem = document.createElement("script");
+            screlem.src = "//cdn.embedly.com/widgets/platform.js";
+            screlem.async = true;
+            screlem.charset = "utf-8";
+            document.body.appendChild(screlem);
+          {"}"});
+        </script>
       </body>
     </html>
   )
