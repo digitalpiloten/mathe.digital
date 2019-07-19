@@ -80,13 +80,13 @@ class Index extends React.Component {
             </header>
             <ul className="actions">
               <li>
-                <a
+                <OutboundLink
                   href="https://www.z-f-m.de/mathedigital/madif201907"
                   target="_blank"
                   className="button"
                 >
                   31.08. & 01.09.
-                </a>
+                </OutboundLink>
               </li>
             </ul>
           </section>
@@ -96,13 +96,13 @@ class Index extends React.Component {
               <h2>Bilder</h2>
             </header>
             <p>
-              <a
+              <OutboundLink
                 href="https://www.flickr.com/photos/163747931@N07/albums/72157709740350222"
                 target="_blank"
                 className="button"
               >
                 Zur Bildergalerie
-              </a>
+              </OutboundLink>
             </p>
           </section>
 
@@ -121,9 +121,9 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <a href="https://youtu.be/2lQV_zA-4yk">
+                  <OutboundLink href="https://youtu.be/2lQV_zA-4yk">
                     WRO 2014
-                  </a>
+                  </OutboundLink>
                 </h4>
                 <p>
                   Dieses Video zeigt Ausschnitte aus unserer Teilnahme an der WRO 2014.
@@ -137,9 +137,9 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <a href="https://youtu.be/XnLsDKoFwrw">
+                  <OutboundLink href="https://youtu.be/XnLsDKoFwrw">
                     Einführung in den Mathetreff Digital
-                  </a>
+                  </OutboundLink>
                 </h4>
                 <p>
                   Dieses Video ist eine kleine Einführung in den "Mathetreff Digital", bei dem ein Calliope Mini (http://calliope.cc) verwendet wird. Die Anmeldung zu den Kursen kann über unser Portal https://mathe.digital erfolgen.
@@ -153,9 +153,9 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <a href="https://youtu.be/-y9cQG3KkUY">
+                  <OutboundLink href="https://youtu.be/-y9cQG3KkUY">
                     Calliope mini - Das Bürstentier
-                  </a>
+                  </OutboundLink>
                 </h4>
                 <p>
                   Dieses Video zeigt unser selbstgebautes Calliope mini-Bürstentier.
@@ -169,9 +169,9 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <a href="https://youtu.be/mg17qfjw1pQ">
+                  <OutboundLink href="https://youtu.be/mg17qfjw1pQ">
                     Alarmanlage mit dem Calliope mini
-                  </a>
+                  </OutboundLink>
                 </h4>
                 <p>
                   Dieses Video zeigt unsere selbstgebaute Alarmanlage mit dem Calliope mini.
@@ -185,9 +185,9 @@ class Index extends React.Component {
                 data-card-recommend="0"
               >
                 <h4>
-                  <a href="https://youtu.be/HyMkyRAuNf0">
+                  <OutboundLink href="https://youtu.be/HyMkyRAuNf0">
                     Drohne mit Scratch
-                  </a>
+                  </OutboundLink>
                 </h4>
                 <p>
                   Dieses Video zeigt unsere Drohne, welche sich unter anderem mit der Blocksprache Scratch programmieren lässt.
