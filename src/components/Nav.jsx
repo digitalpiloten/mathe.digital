@@ -25,6 +25,11 @@ const Nav = (props) => (
                     <a href="#">Bilder</a>
                 </Scroll>
             </li>
+            <li>
+                <Scroll type="id" element="videos">
+                    <a href="#">Videos</a>
+                </Scroll>
+            </li>
         </Scrollspy>
     </nav>
 )

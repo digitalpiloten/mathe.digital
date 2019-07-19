@@ -101,6 +101,31 @@ class Index extends React.Component {
             </p>
           </section>
 
+          <section id="videos" className="main">
+            <header className="major">
+              <h2>Videos</h2>
+              <p>
+                Im Folgenden sehen sie einige Videos zu der Programmierarbeit der Kursteilnehmer:
+              </p>
+            </header>
+            <p>
+              <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://youtu.be/2lQV_zA-4yk">WRO 2014</a></h4><p>Dieses Video zeigt Ausschnitte aus unserer Teilnahme an der WRO 2014.</p></blockquote>
+              <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+              <br />
+              <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://youtu.be/XnLsDKoFwrw">Einführung in den Mathetreff Digital</a></h4><p>Dieses Video ist eine kleine Einführung in den "Mathetreff Digital", bei dem ein Calliope Mini (http://calliope.cc) verwendet wird. Die Anmeldung zu den Kursen kann über unser Portal https://mathe.digital erfolgen.</p></blockquote>
+              <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+              <br />
+              <blockquote class="embedly-card"><h4><a href="https://youtu.be/-y9cQG3KkUY">Calliope mini - Das Bürstentier</a></h4><p>Dieses Video zeigt unser selbstgebautes Calliope mini-Bürstentier.</p></blockquote>
+              <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+              <br />
+              <blockquote class="embedly-card"><h4><a href="https://youtu.be/mg17qfjw1pQ">Alarmanlage mit dem Calliope mini</a></h4><p>Dieses Video zeigt unsere selbstgebaute Alarmanlage mit dem Calliope mini.</p></blockquote>
+              <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+              <br />
+              <blockquote class="embedly-card"><h4><a href="https://youtu.be/HyMkyRAuNf0">Drohne mit Scratch</a></h4><p>Dieses Video zeigt unsere Drohne, welche sich unter anderem mit der Blocksprache Scratch programmieren lässt.</p></blockquote>
+              <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+            </p>
+          </section>
+
         </div>
 
       </Layout>
